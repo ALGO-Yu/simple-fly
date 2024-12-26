@@ -1,0 +1,138 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+
+## .gitignore for windows
+ 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+ 
+# Fol
+# Xcode
+.DS_Store
+*/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots/**/*.png
+
+# Code Injection by AppCode
+.idea/
+
+# AppCode
+.idea/inspectionProfiles
+.idea/vcs.xml
+.idea/Dictionaries
+.idea/consoles
+
+# Archives
+*.xcarchive
+
+# AppXcode configuration files
+*.xcconfig
+
+# User-specific settings
+*.xcuserdatad
+*.xcuserdata
+
+# Logs
+*.log
+*.tlog
+
+# Temporary files
+*.temp
+*.tmp
+*.swp
+*.swo
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM
+.swiftpm/xcode/package.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Deps
+.dep/
+
+# Xcode Automatically Generated Files
+*.xcscmblueprint
+
+# Provisioning Profiles
+*.mobileprovision
+
+# Xcode Custom Templates
+*.xctemplate
+
+# Xcode Custom Plug-ins
+*.xcplugindata
+
+# Xcode Symbolic Breakpoints
+*.xcsymboldata
+
+# Xcode Scheme Management
+*.xcschememanagement.plist
