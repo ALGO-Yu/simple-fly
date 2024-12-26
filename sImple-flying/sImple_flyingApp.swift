@@ -11,7 +11,7 @@ import SwiftUI
 struct sImple_flyingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // 确保这个是你想要的初始视图
         }
     }
 }
